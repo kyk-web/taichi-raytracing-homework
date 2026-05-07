@@ -1,4 +1,4 @@
-﻿# Taichi Whitted-Style Ray Tracing 实验报告
+﻿# Taichi Whitted-Style Ray Tracing
 
 ## 1. 实验目标
 
