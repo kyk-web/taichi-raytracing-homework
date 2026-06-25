@@ -1,4 +1,6 @@
-﻿# Taichi Whitted-Style Ray Tracing
+# 实验六：Taichi Whitted-Style Ray Tracing
+
+202411180014-刘奕可-计科
 
 ## 1. 实验目标
 
@@ -17,6 +19,7 @@
 ---
 
 ## 2. 实验原理
+
 
 ### 2.1 Ray Casting 与 Ray Tracing
 
@@ -123,6 +126,7 @@ for bounce in max_bounces:
 
 ## 3. 实验内容
 
+
 本实验搭建了一个包含地面、漫反射球体和镜面球体的三维场景。
 
 | 对象 | 材质 | 说明 |
@@ -136,6 +140,7 @@ for bounce in max_bounces:
 ---
 
 ## 4. 项目结构
+
 
 ```text
 taichi-raytracing-homework/
@@ -171,6 +176,7 @@ taichi-raytracing-homework/
 ---
 
 ## 5. 核心实现
+
 
 ### 5.1 射线与平面求交
 
@@ -257,6 +263,7 @@ pattern = floor(x * scale) + floor(z * scale)
 
 ## 6. UI 参数设计
 
+
 程序提供了以下可调节参数：
 
 | 参数 | 作用 |
@@ -278,6 +285,7 @@ pattern = floor(x * scale) + floor(z * scale)
 
 ## 7. 实验结果
 
+
 程序最终渲染出一个包含黑白棋盘格地面、红色漫反射球和银色镜面反射球的三维场景。
 
 红色球体可以展示漫反射光照和硬阴影效果；银色球体可以展示镜面反射效果；地面棋盘格可以帮助观察空间透视、阴影位置和镜面反射内容。
@@ -294,6 +302,7 @@ pattern = floor(x * scale) + floor(z * scale)
 
 ## 8. 实验分析
 
+
 通过实验可以观察到：
 
 1. 主光线决定每个像素首先看到的物体。
@@ -307,6 +316,7 @@ pattern = floor(x * scale) + floor(z * scale)
 ---
 
 ## 9. 实验总结
+
 
 本实验完成了一个基于 Taichi 的 Whitted-Style 光线追踪渲染程序，实现了主光线生成、平面求交、球体求交、最近交点选择、棋盘格纹理、硬阴影、镜面反射和多次反射追踪等功能。
 
