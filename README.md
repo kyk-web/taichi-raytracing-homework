@@ -1,4 +1,4 @@
-# 实验六：Taichi Whitted-Style Ray Tracing
+# 实验五：Taichi Whitted-Style Ray Tracing
 
 202411180014-刘奕可-计科
 
